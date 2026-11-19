@@ -1,4 +1,4 @@
-const imageCache='easybnf:images:9feb3fc22e8bb7f5';
+const imageCache='easybnf:images:f992e84ceb906051';
 self.addEventListener('install',()=>self.skipWaiting());
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
   const names=await caches.keys();
